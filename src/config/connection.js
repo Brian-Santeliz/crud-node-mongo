@@ -2,7 +2,7 @@ const { connect } = require('mongoose');
 
 exports.conexionMongo = async () => {
   try {
-    await connect('mongodb://localhost/actividad-1', {
+    await connect('mongodb://localhost/actividad1', {
       useCreateIndex: true,
       useFindAndModify: false,
       useUnifiedTopology: true,
